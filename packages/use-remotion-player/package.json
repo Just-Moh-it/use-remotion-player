@@ -1,0 +1,28 @@
+{
+  "name": "use-remotion-player",
+  "version": "0.0.1",
+  "description": "React hook and components utilities to customize the remotion player",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "lint": "eslint src"
+  },
+  "peerDependencies": {
+    "remotion": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.26",
+    "@types/react-dom": "^18.2.11",
+    "remotion": "^4.0.46"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@remotion/player": "^4.0.47",
+    "react": "^18.2.0"
+  }
+}

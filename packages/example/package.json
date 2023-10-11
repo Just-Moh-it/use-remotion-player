@@ -3,14 +3,15 @@
   "main": "./index.tsx",
   "scripts": {
     "start": "remotion studio",
-    "dev": "remotion studio --no-open",
+    "dev": "next dev",
     "lint": "eslint src"
   },
   "dependencies": {
+    "next": "^13.5.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "remotion": "^4.0.46",
-    "my-library": "workspace:*"
+    "use-remotion-player": "workspace:*"
   },
   "peerDependencies": {
     "remotion": "*"
